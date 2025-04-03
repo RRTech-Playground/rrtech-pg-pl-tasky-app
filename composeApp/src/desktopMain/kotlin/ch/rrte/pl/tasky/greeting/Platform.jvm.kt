@@ -1,4 +1,4 @@
-package ch.rrte.pl.tasky
+package ch.rrte.pl.tasky.greeting
 
 class JVMPlatform: Platform {
     override val name: String = "Java ${System.getProperty("java.version")}"

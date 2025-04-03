@@ -1,4 +1,4 @@
-package ch.rrte.pl.tasky
+package ch.rrte.pl.tasky.greeting
 
 class WasmPlatform: Platform {
     override val name: String = "Web with Kotlin/Wasm"

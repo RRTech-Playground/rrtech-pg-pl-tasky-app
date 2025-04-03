@@ -1,4 +1,4 @@
-package ch.rrte.pl.tasky
+package ch.rrte.pl.tasky.greeting
 
 import platform.UIKit.UIDevice
 
