@@ -60,7 +60,6 @@ coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coil3"
 coil-compose-core = { module = "io.coil-kt.coil3:coil-compose-core", version.ref = "coil3" }
 coil-compose-wasm-js = { module = "io.coil-kt.coil3:coil-wasm-js", version.ref = "coil3" }
 coil-mp = { module = "io.coil-kt.coil3:coil", version.ref = "coil3" }
-coil-network-ktor2 = { module = "io.coil-kt.coil3:coil-network-ktor2", version.ref = "coil3" }
 coil-network-ktor3 = { module = "io.coil-kt.coil3:coil-network-ktor3", version.ref = "coil3" }
 
 # JetBrains Andoridx Compose
@@ -153,7 +152,6 @@ ktor = [
 coil = [
     "coil-compose",
     "coil-compose-core",
-    #"coil-network-ktor2", # Not supported by the wasmJs target
     "coil-network-ktor3",
     "coil-mp"
 ]
