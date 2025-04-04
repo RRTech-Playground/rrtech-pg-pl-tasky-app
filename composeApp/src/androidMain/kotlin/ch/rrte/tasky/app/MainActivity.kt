@@ -1,4 +1,4 @@
-package ch.rrte.pl.tasky
+package ch.rrte.tasky.app
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

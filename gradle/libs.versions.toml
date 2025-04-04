@@ -31,7 +31,7 @@ mockk = "1.13.17"
 turbine = "1.2.0"
 
 # Project versions
-android-appId = "ch.rrte.pl.tasky.app"
+android-appId = "ch.rrte.tasky.app"
 android-compileSdk = "35"
 android-minSdk = "24"
 android-targetSdk = "35"

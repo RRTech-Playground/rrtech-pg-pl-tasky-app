@@ -77,11 +77,11 @@ kotlin {
 }
 
 android {
-    namespace = "ch.rrte.pl.tasky"
+    namespace = "ch.rrte.tasky.app"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "ch.rrte.pl.tasky"
+        applicationId = "ch.rrte.tasky.app"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
@@ -109,11 +109,11 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "ch.rrte.pl.tasky.MainKt"
+        mainClass = "ch.rrte.tasky.app.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "ch.rrte.pl.tasky"
+            packageName = "ch.rrte.tasky.app"
             packageVersion = "1.0.0"
         }
     }

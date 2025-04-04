@@ -1,4 +1,4 @@
-package ch.rrte.pl.tasky.greeting
+package ch.rrte.tasky.app.greeting
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
@@ -12,8 +12,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
-import pg_pl_tasky_app.composeapp.generated.resources.Res
-import pg_pl_tasky_app.composeapp.generated.resources.compose_multiplatform
+import rrtech_pg_pl_tasky_app.composeapp.generated.resources.Res
+import rrtech_pg_pl_tasky_app.composeapp.generated.resources.compose_multiplatform
 
 @Composable
 @Preview

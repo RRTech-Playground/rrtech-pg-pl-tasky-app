@@ -1,4 +1,4 @@
-package ch.rrte.pl.tasky
+package ch.rrte.tasky.app
 
 import androidx.compose.ui.window.ComposeUIViewController
 

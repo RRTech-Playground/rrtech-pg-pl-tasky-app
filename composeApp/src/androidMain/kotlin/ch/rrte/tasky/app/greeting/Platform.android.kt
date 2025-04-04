@@ -1,4 +1,4 @@
-package ch.rrte.pl.tasky.greeting
+package ch.rrte.tasky.app.greeting
 
 import android.os.Build
 

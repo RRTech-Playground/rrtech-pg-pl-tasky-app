@@ -1,4 +1,4 @@
-rootProject.name = "pg-pl-tasky-app"
+rootProject.name = "rrtech-pg-pl-tasky-app"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

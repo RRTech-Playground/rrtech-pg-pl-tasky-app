@@ -1,4 +1,4 @@
-package ch.rrte.pl.tasky.greeting
+package ch.rrte.tasky.app.greeting
 
 class Greeting {
     private val platform = getPlatform()
